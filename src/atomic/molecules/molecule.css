@@ -1,4 +1,9 @@
+:root {
+  --fonte-pokemon: "PKMN RBYGSC Regular";
+}
+
 .busca {
+  
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
@@ -7,12 +12,15 @@
 
 input {
   padding: 8px;
+  font-size: 10px;
+  font-family: var(--fonte-pokemon);
   border-radius: 5px;
   border: 1px solid #ccc;
-  width: 220px;
+  width: 270px;
 }
 
 button {
+  font-family: var(--fonte-pokemon);
   padding: 8px 12px;
   border: none;
   border-radius: 5px;
