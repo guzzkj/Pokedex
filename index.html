@@ -1,0 +1,45 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokédex</title>
+
+<link href="https://db.onlinewebfonts.com/c/65780863e7302fe257df982341d6a1cb?family=PKMN+RBYGSC+Regular" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="src/atomic/atoms/atom.css" />
+  <link rel="stylesheet" href="src/atomic/molecules/molecule.css" />
+  <link rel="stylesheet" href="src/atomic/organism/organism.css" />
+</head>
+
+
+<body>
+  <main id="app">
+    <section class="pokedex">
+      <h1 class="titulo">Pokédex</h1>
+
+      <div class="busca">
+        <input type="text" id="campoBusca" placeholder="Buscar Pokémon por nome ou ID..." />
+        <button id="botaoBuscar">Buscar</button>
+      </div>
+
+      <div class="conteudo">
+        <aside id="detalhesPokemon" class="detalhes oculto"></aside>
+        <div id="listaPokemons" class="lista"></div>
+      </div>
+
+      <div class="paginacao">
+        <button id="anterior">&laquo;</button>
+        <div id="numerosPaginas"></div>
+        <button id="proximo">&raquo;</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- JS -->
+  <script src="js/models/model.js"></script>
+  <script src="js/services/service.js"></script>
+  <script src="js/controllers/controller.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

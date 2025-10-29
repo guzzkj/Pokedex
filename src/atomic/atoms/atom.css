@@ -1,0 +1,22 @@
+.card-pokemon {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.card-pokemon:hover {
+  transform: scale(1.05);
+}
+
+.card-pokemon img {
+  width: 96px;
+  height: 96px;
+}
+
+.card-pokemon h2 {
+  margin: 8px 0 5px 0;
+  text-transform: capitalize;
+}
