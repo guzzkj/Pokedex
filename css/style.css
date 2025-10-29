@@ -43,6 +43,14 @@ body {
   text-align: left;
 }
 
+ul{
+  list-style-type: none;
+}
+
+li{
+  padding: 5px;
+}
+
 .oculto {
   display: none;
 }
